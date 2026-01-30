@@ -1,0 +1,39 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Testing RAG with OpenAI and LangChain"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gitpython>=3.1.46",
+    "langchain>=1.2.7",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.1",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.7",
+    "langchain-openai>=1.1.7",
+    "langchain-text-splitters>=1.1.0",
+    "pypdf>=6.6.2",
+    "python-git>=2018.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "rich>=14.3.1",
+    "ruff>=0.14.14",
+]
+
+
+[tool.ruff]
+# Target Python version
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and pycodestyle (`E`, `W`) codes by default.
+select = ["E", "F", "B", "I"]
+ignore = []
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
