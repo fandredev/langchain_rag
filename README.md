@@ -72,4 +72,3 @@ Before you begin, you will need:
    - Create and persist embeddings in ChromaDB (`chroma_db/` folder).
    - Initialize the chat model.
    - Ask questions about the document.
-# langchain_rag
