@@ -57,18 +57,4 @@ Before you begin, you will need:
    OPENAI_API_KEY=sk-...
    ```
 
-## 📖 How to Use
-
-1. **Add your Documents**:
-   Place the PDF files you want to process inside the `documents/` folder.
-
-   > _The current code is configured to read a specific file (e.g., `documents/DOC-MPV-13082025-20250808.pdf`). You can change the file path in the notebook._
-
-2. **Run the RAG**:
-   Open the `rag_solution.ipynb` notebook in VS Code or Jupyter Notebook.
-
-   Run the cells sequentially to:
-   - Load and process the PDF.
-   - Create and persist embeddings in ChromaDB (`chroma_db/` folder).
-   - Initialize the chat model.
-   - Ask questions about the document.
+3. **have fun**

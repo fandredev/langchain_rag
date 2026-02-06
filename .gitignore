@@ -2,3 +2,7 @@ venv
 .env
 test_repo
 databases
+childVectorDB
+
+# Ruff
+.ruff_cache
