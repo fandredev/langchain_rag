@@ -13,7 +13,7 @@ dependencies = [
     "langchain-core>=1.2.7",
     "langchain-openai>=1.1.7",
     "langchain-text-splitters>=1.1.0",
-    "pypdf>=6.10.1",
+    "pypdf>=6.10.2",
     "python-git>=2018.2.1",
 ]
 
